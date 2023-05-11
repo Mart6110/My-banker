@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace My_banker.Interface
 {
-    interface ICustomer
+    public interface ICredit
     {
-        public string Name { get; set; }
+        long Credit { get; set; }
     }
 }

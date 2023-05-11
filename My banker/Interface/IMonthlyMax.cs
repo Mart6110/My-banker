@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace My_banker.Interface
 {
-    interface IAccountNumber
+    public interface IMonthlyMax
     {
-        public string RegNumber { get; set; }
-        public int[] AccountNumber { get; set; }
+        long MonthlyMax { get; }
     }
 }
